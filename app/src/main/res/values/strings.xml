@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">S6Futbolistas</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="position">Posición</string>
+    <string name="onof">On / Off</string>
+    <string name="edit">Editar</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="age">Edad</string>
+    <string name="save">Save</string>
+</resources>
