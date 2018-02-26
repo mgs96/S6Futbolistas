@@ -36,6 +36,11 @@ public class SecondActivity extends AppCompatActivity {
         Jugador j = (Jugador) intent.getSerializableExtra("jugador");
         int editar = intent.getIntExtra("editar", 0);
         id = intent.getIntExtra("id", 0);
+
+        etNombre.setText(j.getNombre());
+        etApellido.setText(j.getApellido());
+        etPosicion.setText(j.getPosicion());
+        etEdad.setText(j.getEdad() + "");
         if (editar == 1) {
             etNombre.setEnabled(true);
             etApellido.setEnabled(true);

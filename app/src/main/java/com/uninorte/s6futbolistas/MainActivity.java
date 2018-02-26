@@ -36,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Log.d("TAG", "Click en " + position);
+                Intent two = new Intent(view.getContext(), SecondActivity.class);
+                two.putExtra("jugador", jugadores.get(position));
+                two.putExtra("id", (int) position);
+                two.putExtra("editar", 0);
+                startActivity(two);
             }
         });
     }
